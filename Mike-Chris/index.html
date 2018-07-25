@@ -7,11 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  
+  <link rel="stylesheet" href="vendor/styles/normalize.css">
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
   <link rel="stylesheet" href="vendor/styles/icons.css">
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/layout.css">
+<link rel="stylesheet" href="styles/modules.css">
+<link rel="stylesheet" href="styles/state.css">
   <!-- TODO: Use styles/modularize.css as reference as well as provided comp images -->
 
   <!-- TODO: (STRETCH) - see how far you can get without referring to modularize.css -->
@@ -20,7 +23,7 @@
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- PUT YOUR RESPONSE HERE -->
-
+<!-- The stylesheets should load from the broadest rulesets to the most specific ones to avoid rules for an important small detail end up getting changed by the more general rule. -->
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 </head>
