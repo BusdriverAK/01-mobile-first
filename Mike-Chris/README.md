@@ -29,5 +29,5 @@ HTML and CSS built for mobile first, utilizing media queries to control CSS rule
 #### General Guidelines for SMACSS formatting:
 https://github.com/codefellows-seattle-301n11/00-lab/tree/master/2-SMACSS-practice
 
-### CSS Tricks for Clear-fix (how to clear child elements):
+#### CSS Tricks for Clear-fix (how to clear child elements):
 https://css-tricks.com/snippets/css/clear-fix/
